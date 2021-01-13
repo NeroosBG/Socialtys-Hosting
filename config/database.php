@@ -46,9 +46,9 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', 'us-cdbr-hirone-west- 06.cleardb.net' == gethostname() ? 'localhost' : 'localhost:8889'),
+            'host' => env('DB_HOST', 'us-cdbr-hirone-west-06.cleardb.net' == gethostname() ? 'localhost' : 'localhost:8889'),
             //'port' => env('DB_PORT', '8889'),
-            'port' => env('DB_PORT', 'us-cdbr-hirone-west- 06.cleardb.net' == gethostname() ? null : 33060),
+            'port' => env('DB_PORT', 'us-cdbr-hirone-west-06.cleardb.net' == gethostname() ? null : 33060),
             'database' => env('DB_DATABASE', 'heroku_ddc4ec26dc8d793'),
             'username' => env('DB_USERNAME', 'b3e93ebb13adb2'),
             'password' => env('DB_PASSWORD', '78d6df03'),
